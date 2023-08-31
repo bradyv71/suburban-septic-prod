@@ -2551,6 +2551,10 @@ img.testimonial-thumb {
   color: #fff;
   font-weight: 900;
 }
+ .img-fluid test{
+  height: 350px;
+  width: 450px;
+ }
 
 /*-- Get a quote page --*/
 .page-quote-form {
@@ -3373,12 +3377,10 @@ padding: 0 15px;
 margin-bottom: 20px;
 }
 .item {
-background-size: cover; /* Ensure the image covers the entire container */
-background-position: center; /* Center the image */
-width: 100%; /* Set the width to 100% to make it responsive */
-height: 300px; /* Adjust the height as needed */
-position: relative; /* Position for pseudo-element */
-transition: background 0.3s; /* Add transition effect */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  width: 100%; /* Set the width to 100% to make it responsive */
+  height: 100%; /* Adjust the height as needed */
 }
 
 /* Define different background images for each item */
