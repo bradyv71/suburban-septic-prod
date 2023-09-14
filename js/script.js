@@ -302,11 +302,19 @@ function sendMail(){
     .catch((err) =>console.log(err));
 }
 
-
+function setCookieWithSameSite(name, value, daysToExpire, sameSite) {
+	const date = new Date();
+	date.setTime(date.getTime() + (daysToExpire * 24 * 60 * 60 * 1000));
+	const expires = "expires=" + date.toUTCString();
+	const sameSiteAttr = "SameSite=" + sameSite;
+	document.cookie = name + "=" + value + ";" + expires + ";" + sameSiteAttr + ";path=/";
+  }
+  setCookieWithSameSite("username", "john_doe", 30, "None; Secure");
+  
 
 // slideshow---------------
 
-var myIndex = 0;
+/* var myIndex = 0;
 carousel();
 
 function carousel() {
@@ -320,4 +328,4 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 2500);    
 }
-
+ */

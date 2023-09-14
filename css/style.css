@@ -3431,6 +3431,49 @@ margin: 0 auto; /* Center the images horizontally */
     margin-top: 35px; /* Adjust the value as needed */
   }
 }
+/* Add spacing between list items */
+.service-menu li {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+/* Increase font size and improve readability for the paragraph */
+.column-title-small {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Add spacing at the bottom of the title */
+}
+
+.row .col-md-6 p {
+  font-size: 18px; /* Adjust the font size as needed */
+  line-height: 1.5; /* Improve line height for readability */
+  margin-bottom: 20px; /* Add spacing at the bottom of the paragraph */
+}
+
+/* Style the list items for better readability */
+.list-arrow li {
+  font-size: 18px; /* Adjust the font size as needed */
+  line-height: 1.5; /* Improve line height for readability */
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+/* Increase font size and improve readability for the paragraph */
+.col-md-12 p {
+  font-size: 18px; /* Adjust the font size as needed */
+  line-height: 1.5; /* Improve line height for readability */
+  margin-bottom: 20px; /* Add spacing at the bottom of the paragraph */
+}
+/* Increase font size and improve readability for the content */
+.col-md-6 h2 {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Add spacing at the bottom of the heading */
+}
+
+.col-md-6 .card-body {
+  font-size: 18px; /* Adjust the font size for the card content */
+  line-height: 1.5; /* Improve line height for readability */
+  margin-bottom: 20px; /* Add spacing at the bottom of the card content */
+}
+
+.dropdown-menu li {
+  margin-bottom: 15px; /* Add spacing between list items */
+}
 
 
 
